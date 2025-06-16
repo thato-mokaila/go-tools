@@ -2,7 +2,7 @@ package main
 
 import (
 	"bufio"
-	"bytes"
+	_ "bytes"
 	"fmt"
 	"io"
 	"log"
@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync" // Import the sync package for WaitGroup
 	"sync/atomic" // Import atomic for safe counter increment
-	"time"
+	_ "time"
 
 	"github.com/stacktitan/smb/smb" // SMB library
 	"golang.org/x/text/encoding/unicode"
